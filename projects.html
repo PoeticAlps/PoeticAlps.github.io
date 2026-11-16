@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>项目 — PoeticAlps</title>
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<nav>
+  <a href="index.html">首页</a>
+  <a class="current" href="projects.html">项目</a>
+  <a href="blog.html">博客</a>
+  <a href="https://github.com/PoeticAlps" target="_blank" rel="noopener">GitHub</a>
+</nav>
+
+<main>
+  <h2 class="section" style="margin-top:0">重点作品</h2>
+
+  <div class="proj">
+    <div class="thumb"><a href="https://poeticalps.github.io/--3d/v4/index.html" target="_blank" rel="noopener"><img src="assets/fangpu-fine.jpg" alt="重生·圆明园"></a></div>
+    <div class="body">
+      <h3>重生·圆明园 — AI 数字文化遗产 3D 重建</h3>
+      <p>第 19 届全国 3D 大赛参赛作品。参照《圆明园四十景图咏》与清宫档案,以 Blender bpy 程序化建模 + three.js 实时渲染,在浏览器中重建"万园之园":
+      全园写意漫游(九州清晏 / 方壶胜境 / 正大光明 / 大水法 / 海晏堂)+ 两座考据级精细复原景区(一键切换),
+      配 Preetham 大气天空、平面反射水面、泛光后期与宋式数字长卷 UI。</p>
+      <div class="tags">Blender bpy · three.js · GLTF · 程序化建模 · 40 万+ 三角面</div>
+      <div class="links" style="margin-top:8px">
+        <a href="https://poeticalps.github.io/--3d/v4/index.html" target="_blank" rel="noopener">▶ 全园漫游</a>
+        <a href="https://poeticalps.github.io/--3d/v4/index.html?scene=fangpu&fine=1" target="_blank" rel="noopener">方壶胜境·精细</a>
+        <a href="https://poeticalps.github.io/--3d/v4/index.html?scene=dashuifa&fine=1" target="_blank" rel="noopener">大水法·精细</a>
+        <a href="https://poeticalps.github.io/--3d/v4/index.html?scene=haiyantang&fine=1" target="_blank" rel="noopener">海晏堂·精细</a>
+        <a href="https://github.com/PoeticAlps/--3d" target="_blank" rel="noopener">源码</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="proj">
+    <div class="body">
+      <h3>合浦珠还 — 校园失物招领平台</h3>
+      <p>桂林旅游学院校园失物招领平台:发布失物/招领、智能匹配(同类目 + 名称地点相似度)、图片上传、个人中心。
+      前端 JavaScript + FastAPI/SQLite 后端,支持 Docker 一键部署与演示种子数据。</p>
+      <div class="tags">JavaScript · FastAPI · SQLite · Docker</div>
+      <div class="links" style="margin-top:8px">
+        <a href="https://github.com/PoeticAlps/Ricardo" target="_blank" rel="noopener">源码与部署说明</a>
+      </div>
+    </div>
+  </div>
+
+  <h2 class="section">工具与实验</h2>
+
+  <div class="proj">
+    <div class="body">
+      <h3>vocalize — 本地语音转文字工具</h3>
+      <p>基于 faster-whisper 的语音/视频转写:CLI 一条命令输出 TXT/SRT/VTT/JSON,附带 Web 面板(任务队列 + 真实进度 + 模型缓存)。无 PyTorch 依赖,Mac 开箱即用,准备发布 PyPI。</p>
+      <div class="tags">Python · faster-whisper · FastAPI</div>
+      <div class="links" style="margin-top:8px"><a href="https://github.com/PoeticAlps/vocalize" target="_blank" rel="noopener">源码</a></div>
+    </div>
+  </div>
+
+  <div class="proj">
+    <div class="thumb"><a href="https://poeticalps.github.io/h5-games/" target="_blank" rel="noopener"><img src="assets/h5-games.jpg" alt="H5 游戏厅"></a></div>
+    <div class="body">
+      <h3>H5 游戏厅</h3>
+      <p>7 款纯前端小游戏合集(贪吃蛇 / 跳一跳 / 三消 / 元素合成 / FPS / 三国杀),带统一游戏大厅导航,手机电脑即点即玩。</p>
+      <div class="tags">HTML5 · Canvas · 零依赖</div>
+      <div class="links" style="margin-top:8px">
+        <a href="https://poeticalps.github.io/h5-games/" target="_blank" rel="noopener">▶ 在线玩</a>
+        <a href="https://github.com/PoeticAlps/h5-games" target="_blank" rel="noopener">源码</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="proj">
+    <div class="thumb"><a href="https://poeticalps.github.io/agnes-learning-systems/" target="_blank" rel="noopener"><img src="assets/agnes.jpg" alt="教学原型集"></a></div>
+    <div class="body">
+      <h3>教学系统原型集</h3>
+      <p>多智能体学习系统、景区 AI 导游"小桂"、知声语音知识图谱三个交互式教学原型,移动端适配,知声内置 Mock 数据可完整演示。</p>
+      <div class="tags">HTML5 · 交互原型 · 教育科技</div>
+      <div class="links" style="margin-top:8px">
+        <a href="https://poeticalps.github.io/agnes-learning-systems/" target="_blank" rel="noopener">▶ 在线浏览</a>
+        <a href="https://github.com/PoeticAlps/agnes-learning-systems" target="_blank" rel="noopener">源码</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="proj">
+    <div class="thumb"><a href="https://poeticalps.github.io/art-design/" target="_blank" rel="noopener"><img src="assets/art-design.jpg" alt="圆明园艺术设计"></a></div>
+    <div class="body">
+      <h3>重生·圆明园 · 艺术设计页</h3>
+      <p>圆明园主题交互设计:九州清晏、大水法、方壶胜境、正大光明四大景区可视化与详情展示,Three.js 程序化建模。</p>
+      <div class="tags">Three.js · 可视化</div>
+      <div class="links" style="margin-top:8px">
+        <a href="https://poeticalps.github.io/art-design/" target="_blank" rel="noopener">▶ 在线查看</a>
+        <a href="https://github.com/PoeticAlps/art-design" target="_blank" rel="noopener">源码</a>
+      </div>
+    </div>
+  </div>
+
+  <p class="small muted">
+    完整仓库列表见 <a href="https://github.com/PoeticAlps?tab=repositories" target="_blank" rel="noopener">GitHub</a>;
+    另有作品集导航站 <a href="https://poeticalps.github.io/my-repository/" target="_blank" rel="noopener">poeticalps.github.io/my-repository</a>。
+  </p>
+</main>
+
+<footer>
+  © 2026 PoeticAlps · 由 GitHub Pages 托管 · 模板:Jon Barron website(改版)
+</footer>
+</body>
+</html>

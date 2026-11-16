@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PoeticAlps — 个人主页</title>
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<nav>
+  <a class="current" href="index.html">首页</a>
+  <a href="projects.html">项目</a>
+  <a href="blog.html">博客</a>
+  <a href="https://github.com/PoeticAlps" target="_blank" rel="noopener">GitHub</a>
+</nav>
+
+<main>
+  <div class="profile">
+    <div class="photo">
+      <!-- 将 assets/profile.jpg 放入后自动替换占位符 -->
+      <img src="assets/profile.jpg" alt="个人照片"
+           onerror="this.outerHTML='<div class=&quot;photo-placeholder&quot;>照片占位:放入 assets/profile.jpg 即可显示</div>'">
+    </div>
+    <div class="info">
+      <div class="name-zh">PoeticAlps</div>
+      <div class="name-en">开发者 · 数字文化 · 实用工具</div>
+      <ul class="contact">
+        <li><span class="ico">◆</span> 专注把想法做成<b>能交付、能使用</b>的东西</li>
+        <li><span class="ico">◆</span> <a href="https://github.com/PoeticAlps" target="_blank" rel="noopener">github.com/PoeticAlps</a></li>
+        <li><span class="ico">◆</span> <span class="muted">联系邮箱(自行填写)</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <h2 class="section">简介</h2>
+  <p>
+    我是一名开发者,兴趣横跨 <b>三维数字化与文化遗产</b>、<b>AI 工作流</b> 与 <b>实用工具开发</b>。
+    我相信好的作品应当解决真实的问题:能被打开、能被使用、能被交付,而不是停留在演示层面。
+  </p>
+  <p>
+    目前正在推进的主要作品是 <a href="projects.html">「重生·圆明园」</a>——
+    参照《圆明园四十景图咏》与清宫档案,以 Blender 程序化建模 + three.js 实时渲染,
+    在浏览器中重建这座"万园之园"的写意全景与考据级精细景区。
+  </p>
+
+  <h2 class="section">动态</h2>
+  <ul class="news">
+    <li><span class="date">2026-11</span> 「重生·圆明园」新增第三座考据级精细景区 <b>海晏堂</b>(十二生肖"水力钟")上线</li>
+    <li><span class="date">2026-11</span> 大水法、方壶胜境两座精细复原景区接入实时漫游,支持深链直达</li>
+    <li><span class="date">2026-10</span> v4 全新场景上线:参照四十景图咏重构配色与材质,水面反射 + 大气天空 + 电影级后期</li>
+    <li><span class="date">2026-10</span> 16 个仓库全面迭代:每个项目都达到"可交付"标准</li>
+  </ul>
+
+  <h2 class="section">代表作 · 重生圆明园</h2>
+  <figure class="hero">
+    <a href="https://poeticalps.github.io/--3d/v4/index.html?scene=haiyantang&fine=1" target="_blank" rel="noopener">
+      <img src="assets/fangpu-fine.jpg" alt="重生·圆明园 方壶胜境精细复原">
+    </a>
+    <figcaption>
+      方壶胜境 · 考据级精细复原(Blender 程序化建模 + three.js 实时渲染)。
+      <a href="https://poeticalps.github.io/--3d/v4/index.html" target="_blank" rel="noopener">点此进入全园漫游</a>,
+      或用深链直达:<a href="https://poeticalps.github.io/--3d/v4/index.html?scene=fangpu&fine=1" target="_blank" rel="noopener">方壶胜境</a> ·
+      <a href="https://poeticalps.github.io/--3d/v4/index.html?scene=dashuifa&fine=1" target="_blank" rel="noopener">大水法</a> ·
+      <a href="https://poeticalps.github.io/--3d/v4/index.html?scene=haiyantang&fine=1" target="_blank" rel="noopener">海晏堂</a>
+    </figcaption>
+  </figure>
+
+  <p class="small muted">
+    更多作品见 <a href="projects.html">项目页</a>;本站基于
+    <a href="https://github.com/jonbarron/website" target="_blank" rel="noopener">Jon Barron 学术主页模板</a>中文化改版,部署于 GitHub Pages。
+  </p>
+</main>
+
+<footer>
+  © 2026 PoeticAlps · 由 GitHub Pages 托管 · 模板:Jon Barron website(改版)
+</footer>
+</body>
+</html>
