@@ -91,3 +91,13 @@ footer {
   .proj .thumb { flex: none; }
   nav { justify-content: center; }
 }
+
+/* 博客文章 */
+.article { margin: 30px 0 44px; }
+.a-title { font-size: 1.7rem; margin: 0 0 6px; font-weight: 700; }
+.a-meta { font-family: -apple-system, "PingFang SC", sans-serif; font-size: .85rem; color: var(--muted); margin-bottom: 18px; }
+.a-sep { height: 1px; background: var(--border); margin: 40px 0; }
+.article h3 { font-size: 1.15rem; margin: 24px 0 8px; }
+.article pre { background: #f6f4ef; border: 1px solid var(--border); border-radius: 6px; padding: 10px 14px; font: 13px/1.5 ui-monospace, monospace; overflow-x: auto; }
+.article ul { padding-left: 20px; }
+.article li { margin: 5px 0; }
